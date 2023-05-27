@@ -1,0 +1,70 @@
+.result-container {
+  background-color: #ffffff33;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+}
+.result-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.result {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .result {
+    font-size: 14px;
+  }
+}
+.best-score {
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .best-score {
+    font-size: 8px;
+  }
+}
+.final-score {
+  font-size: 16px;
+  color: #6a59ff;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .final-score {
+    font-size: 11px;
+  }
+}
+.play-again-button {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-size: 9px;
+  border: none;
+  border-radius: 6px;
+  width: 50px;
+  padding: 4px;
+}
+.result-image {
+  height: 150px;
+  width: 100px;
+}
+@media screen and (max-width: 768px) {
+  .play-again-button {
+    font-size: 6px;
+    width: 35px;
+  }
+  .result-image {
+    height: 120px;
+    width: 80px;
+  }
+}
